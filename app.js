@@ -1,3 +1,33 @@
+  "env": {
+      "LINE_CHANNEL_SECRET": {
+          "description": "5799c771d9b875f1971dd47359223be1",
+          "required": true
+      },
+      "LINE_ACCESS_TOKEN": {
+          "description": "RovebFCv15AW3QUwv/0gJ2OlP3wI8BGL/JRD0yeTGUMZhofwnXyfLpyvlkz8MgeNEBZDYmAYWRK+2BtBHt0NfT1yFtb6bh4d3inwx+BDWVlOlpSFc64Y3+Yhq5u8TWqqIi5boBhYuTO1p5FmlK8nb1GUYhWQfeY8sLGRXgo3xvw=",
+          "required": true
+      },
+      "GOOGLE_PROJECT_ID": {
+          "description": "Project ID of Google Cloud Platform which can be found in Agent configuration page of Dialogflow.",
+          "required": true
+      },
+      "GOOGLE_CLIENT_EMAIL": {
+          "description": "Client Email of Google Cloud Platform which can be found in Agent configuration page of Dialogflow.",
+          "required": true
+      },
+      "GOOGLE_PRIVATE_KEY": {
+          "description": "Private Key of Google Cloud Platform which can be found in JSON formatted key file of Google Service Account.",
+          "required": true
+      },
+      "DEBUG": {
+          "description": "Flag to switch debugging level and target scripts.",
+          "required": false,
+          "value": "bot-express:*"
+      }
+  },
+
+
+
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
